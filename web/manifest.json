@@ -1,11 +1,11 @@
 {
-    "name": "SaifAlmajd",
-    "short_name": "SaifAlmajd",
+    "name": "PreshlyEbonke",
+    "short_name": "Preshly",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#75bff0",
-    "description": "SaifAlmajd Portfolio",
+    "description": "PreshlyEbonke Portfolio",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

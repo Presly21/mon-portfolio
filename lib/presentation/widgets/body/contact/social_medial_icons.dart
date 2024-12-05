@@ -27,18 +27,18 @@ class SocialMediaIcons extends StatelessWidget {
             icon: FontAwesomeIcons.stackOverflow,
             link: SocialLinks.stackOverflow,
           ),
-          SocialMediaIconBtn(
-            icon: FontAwesomeIcons.dribbble,
-            link: SocialLinks.dribbble,
-          ),
-          SocialMediaIconBtn(
-            icon: FontAwesomeIcons.hashnode,
-            link: SocialLinks.hashnode,
-          ),
-          SocialMediaIconBtn(
-            icon: FontAwesomeIcons.userGear,
-            link: SocialLinks.geeksForGeeks,
-          ),
+          // SocialMediaIconBtn(
+          //   icon: FontAwesomeIcons.dribbble,
+          //   link: SocialLinks.dribbble,
+          // ),
+          // SocialMediaIconBtn(
+          //   icon: FontAwesomeIcons.hashnode,
+          //   link: SocialLinks.hashnode,
+          // ),
+          // SocialMediaIconBtn(
+          //   icon: FontAwesomeIcons.userGear,
+          //   link: SocialLinks.geeksForGeeks,
+          // ),
           SocialMediaIconBtn(
             icon: FontAwesomeIcons.instagram,
             link: SocialLinks.instagram,
@@ -48,7 +48,7 @@ class SocialMediaIcons extends StatelessWidget {
             link: SocialLinks.linkedin,
           ),
           SocialMediaIconBtn(
-            icon: FontAwesomeIcons.twitter,
+            icon: FontAwesomeIcons.facebook,
             link: SocialLinks.twitter,
           ),
         ],

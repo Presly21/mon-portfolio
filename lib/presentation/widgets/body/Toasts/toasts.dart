@@ -20,7 +20,7 @@ class WelcomeToasts {
         time: 40,
         title: "Seems like your are still not sure",
         description:
-            "Connect with Saif in Linkedin, maybe you can have a quick chat together",
+            "Connect with Preshly in Linkedin, maybe you can have a quick chat together",
         context: context);
     showToast(
         time: 60,

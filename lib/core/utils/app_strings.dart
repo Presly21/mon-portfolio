@@ -1,6 +1,6 @@
 abstract class AppStrings {
-  static const String developerNameStyle = "</PreshlyDev>";
-  static const String developerFlutterGeek = "Flutter Geek :)";
+  static const String developerNameStyle = "</PreshlyPro>";
+  static const String developerFlutterGeek = "Flutter Geek 👋";
   static const String developerName = "Preshly Ebonke!";
 
   static const String developerResume =

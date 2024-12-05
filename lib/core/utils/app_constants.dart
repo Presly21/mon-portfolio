@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_typing_uninitialized_variables
+
 import '../../data/models/custom_service.dart';
 import '../../data/models/project.dart';
 import 'app_assets.dart';
@@ -56,7 +58,7 @@ abstract class AppConstants {
         description:
             "Opportunities that has been giving to me by participating to this projet ,a complete,base app that  manege moto-taximen in the community of douala(IV) apps using Flutter/Dart.",
         githubRepoLink: "//",
-        previewLink: "https://pub.dev/packages"),
+        previewLink: ""),
     Project(
         name: "E-learning",
         imageUrl:
@@ -70,7 +72,7 @@ abstract class AppConstants {
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlcc7RGyDbC7z_D0dfL1gpC2jEo2BMu0iqTQ&s",
         githubRepoLink: "https://github.com/Presly21/moi/tree/attend",
         googlePlay:
-            "https://play.google.com/store/app",
+            "",
         description:
             "Application for employee attentance.build in dart"),
     Project(
@@ -85,7 +87,7 @@ abstract class AppConstants {
             "https://drive.google.com/file/d/1B11XWsZUcNZgopXpPFSazD4G73jfIkb1/view?usp=sharing"),
     Project(
         name: "Certification-JavaScript",
-        previewLink: "https://foodfinder",
+        // previewLink: "",
         imageUrl:
             "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
         description:
@@ -177,4 +179,8 @@ abstract class AppConstants {
     //     description:
     //         "Developed to help technologize AIU Social Business as well as E-Commerce for SB Shops using WORDPRESS."),
   ];
+
+  static var description;
+
+  static var name;
 }
