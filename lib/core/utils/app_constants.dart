@@ -12,7 +12,7 @@ abstract class AppConstants {
       service: 'UI, UX & RESPONSIVENESS',
       logo: AppAssets.uiDesignLogo,
       description:
-          'Working on enhancing the user interface and experience with focus on aesthetics and functionality. My repressiveness designing and  and skills  ensure that your application looks great and offers a seamless and user-friendly experience.',
+          'UI, UX & Responsiveness focus on creating visually appealing and functional interfaces, delivering a seamless user experience. This includes optimizing designs to ensure usability across all devices, balancing attractive visuals with intuitive performance.',
     ),
     CustomService(
         service: 'MOBILE DEVELOPMENT',
@@ -20,10 +20,10 @@ abstract class AppConstants {
         description:
             'Crafting mobile applications that meet any unique requirements. My skills will bring your ideas to a feature-rich, intuitive, and platform-specific mobile App. From Android to iOS, I have got you covered.'),
     CustomService(
-        service: 'CYBER SECURITY',
+        service: 'GRAPHIC DESIGN',
         logo: AppAssets.scrappingLogo,
         description:
-            'Protecting your digital assets and sensitive information from cyber threats. My Cybersecurity skills include vulnerability assessments, threat monitoring, and proactive measures to ensure the security of your online presence.'),
+            'Graphic design is the art of combining visuals, typography, and colors to communicate ideas and convey messages. Used in marketing, advertising, and digital media, it aims to capture attention and create an effective visual impact through aesthetic and functional designs.'),
   ];
   static const List<Project> projects = [
     Project(
@@ -50,13 +50,13 @@ abstract class AppConstants {
             "",
         githubRepoLink: "https://github.com/Presly21/moi/tree/MaSoutenance",
         description:
-            "The Transkap App is a simple and efficient solution for transfering internationaly.build in dart"),
+            "The Transkap App is a simple and efficient solution for transferring internationally, built in Dart."),
     Project(
         name: "Momogo Customer-Agent",
         imageUrl:
             "https://pbs.twimg.com/profile_images/1621123101177139202/QPb0nzwB_400x400.jpg",
         description:
-            "Opportunities that has been giving to me by participating to this projet ,a complete,base app that  manege moto-taximen in the community of douala(IV) apps using Flutter/Dart.",
+            "Opportunities given to me by participating in this project: a complete base app that manages moto-taximen in the community of Douala (IV), built using Flutter/Dart.",
         githubRepoLink: "//",
         previewLink: ""),
     Project(
@@ -65,7 +65,7 @@ abstract class AppConstants {
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsU4lWK5swfTFW44aS6FH4blqmtPqR_qvpzw&s",
         githubRepoLink: "https://github.com/Presly21/moi/tree/e-learning",
         description:
-            "online application base for students to chat with international teachers or students.build in laravel"),
+            "Online application platform for students to chat with international teachers or students. Built in Laravel."),
     Project(
         name: "Attendance",
         imageUrl:
@@ -74,30 +74,30 @@ abstract class AppConstants {
         googlePlay:
             "",
         description:
-            "Application for employee attentance.build in dart"),
+            "Application for employee attentance.Built in dart"),
     Project(
-        name: "Certification-Kotlin",
+        name: "Certification in Kotlin.",
         imageUrl:
             "https://miro.medium.com/v2/resize:fit:800/0*O-c793aaB6gcmsbj.png",
         description:
-            "This document certifie that i have completed my course (Openclass-room).",
+            "This document certifies that I have completed my course (OpenClassroom).",
         // githubRepoLink:
         //     "https://git",
         googlePlay:
             "https://drive.google.com/file/d/1B11XWsZUcNZgopXpPFSazD4G73jfIkb1/view?usp=sharing"),
     Project(
-        name: "Certification-JavaScript",
+        name: "Certification in JavaScript",
         // previewLink: "",
         imageUrl:
             "https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
         description:
-            "This document certifie that i have completed my course (Openclass-room).",
+            "This document certifies that I have completed my course (OpenClassroom).",
         googlePlay:
             "https://drive.google.com/file/d/1ZxMAsTcX1m1HNCc9EKZYrHtDKzkgN4En/view?usp=sharing",
         // githubRepoLink: "https://github.com/"
         ),
     Project(
-        name: "Certification-HTML5",
+        name: "Certification in HTML5",
         imageUrl:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
         // githubRepoLink: "https://githu",
@@ -106,9 +106,9 @@ abstract class AppConstants {
         googlePlay:
             "https://drive.google.com/file/d/1SopptYTe44LpJKl89ywdZBU7k6haC10o/view?usp=sharing",
         description:
-            "This document certifie that i have completed my course (Openclass-room). "),
+            "This document certifies that I have completed my course (OpenClassroom)."),
     Project(
-        name: "Certification-Domain.Driven.Design",
+        name: "Certification in Domain.Driven.Design",
         imageUrl:
             "https://miro.medium.com/v2/resize:fit:1400/0*9Jl-Sxk25kXbUaYm.png",
         // previewLink:
@@ -117,13 +117,13 @@ abstract class AppConstants {
             "https://drive.google.com/file/d/19eO8s_t4B3bdzQC61sq3r4HPu8ul2Oq_/view?usp=sharing",
         // githubRepoLink: "",
         description:
-            "This document certifie that i have completed my course (Openclass-room). "),
+            "This document certifies that I have completed my course (OpenClassroom)."),
     Project(
-        name: "Certification-Android",
+        name: "Certification in Android",
         imageUrl:
             "https://eueung.github.io/012017/android1/images/androidlogo.png",
         description:
-            "This document certifie that i have completed my course (Openclass-room).",
+            "This document certifies that I have completed my course (OpenClassroom).",
         googlePlay:
             "https://drive.google.com/file/d/1PTAI5_LvpVk-mwyb61nv0ufLv3cMBCGS/view?usp=sharing",
         // githubRepoLink: ""
