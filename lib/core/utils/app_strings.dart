@@ -1,5 +1,5 @@
 abstract class AppStrings {
-  static const String developerNameStyle = "</PreshlyPro>";
+  static const String developerNameStyle = "</PreshlyDevPro>";
   static const String developerFlutterGeek = "";
   static const String developerName = "Preshly Ebonke!";
 
@@ -9,7 +9,7 @@ abstract class AppStrings {
   static const String developerWhatsapp = "https://wa.me/+237677476491";
   static const String developerTelegram = "https://t.me/preshlyebonke";
 
-  static const String helloIM = 'Hello, i’m 👋';
+  static const String helloIM = 'Hello 👋, i’m';
   static const String introMsg =
       "A Software Engineer with +1 years of experience. I have completed many projects that prove my ability to provide creative and high-quality solutions.";
   static String aboutMeMsg =

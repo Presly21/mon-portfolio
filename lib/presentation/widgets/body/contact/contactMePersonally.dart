@@ -3,9 +3,25 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:portfolio/core/utils/app_colors.dart';
 import 'package:portfolio/core/utils/app_strings.dart';
 import 'package:universal_html/html.dart' as html;
-
+import 'package:url_launcher/url_launcher.dart';
 class ContactMePersonally extends StatelessWidget {
   const ContactMePersonally({Key? key}) : super(key: key);
+
+  static const String developerEmail = "preslyebonke21@gmail.com";
+
+  Future<void> _sendEmail() async {
+    final Uri emailUri = Uri(
+      scheme: 'mailto',
+      path: developerEmail,
+      query: 'subject=Demande de contact&body=Bonjour, veuillez saisir votre message ici.',
+    );
+
+    if (await canLaunchUrl(emailUri)) {
+      await launchUrl(emailUri);
+    } else {
+      throw 'Impossible d\'ouvrir l\'application de messagerie.';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -18,10 +34,11 @@ class ContactMePersonally extends StatelessWidget {
           child: Container(
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(
-                  color: AppColors.greenColor,
-                )),
+              borderRadius: BorderRadius.circular(20),
+              border: Border.all(
+                color: AppColors.greenColor,
+              ),
+            ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -33,23 +50,24 @@ class ContactMePersonally extends StatelessWidget {
                 const SizedBox(
                   width: 10,
                 ),
-                const Text("Call/Message Me")
+                const Text("Call/Message Me"),
               ],
             ),
           ),
         ),
         const SizedBox(height: 10),
-        InkWell(
+        GestureDetector(
           onTap: () {
-            html.window.open(AppStrings.developerEmail, '_blank');
+            _sendEmail();
           },
           child: Container(
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(
-                  color: AppColors.redColor,
-                )),
+              borderRadius: BorderRadius.circular(20),
+              border: Border.all(
+                color: AppColors.redColor,
+              ),
+            ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -61,7 +79,7 @@ class ContactMePersonally extends StatelessWidget {
                 const SizedBox(
                   width: 10,
                 ),
-                const Text("Email Me")
+                const Text("Email Me"),
               ],
             ),
           ),
@@ -74,10 +92,11 @@ class ContactMePersonally extends StatelessWidget {
           child: Container(
             padding: const EdgeInsets.all(20),
             decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(
-                  color: AppColors.blueColor,
-                )),
+              borderRadius: BorderRadius.circular(20),
+              border: Border.all(
+                color: AppColors.blueColor,
+              ),
+            ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
@@ -89,7 +108,7 @@ class ContactMePersonally extends StatelessWidget {
                 const SizedBox(
                   width: 10,
                 ),
-                const Text("Telegram Me")
+                const Text("Telegram Me"),
               ],
             ),
           ),
@@ -97,4 +116,33 @@ class ContactMePersonally extends StatelessWidget {
       ],
     );
   }
-}
+  }
+// }
+// //////////////
+// ///
+// // ignore: use_key_in_widget_constructors
+// class EmailButton extends StatelessWidget {
+//   static const String developerEmail = "preslyebonke21@gmail.com";
+
+//   Future<void> _sendEmail() async {
+//     final Uri emailUri = Uri(
+//       scheme: 'mailto',
+//       path: developerEmail,
+//       query: 'subject=Demande de contact&body=Bonjour, veuillez saisir votre message ici.',
+//     );
+
+//     if (await canLaunchUrl(emailUri)) {
+//       await launchUrl(emailUri);
+//     } else {
+//       throw 'Impossible d\'ouvrir l\'application de messagerie.';
+//     }
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return ElevatedButton(
+//       onPressed: _sendEmail,
+//       child: const Text('Envoyer un Email'),
+//     );
+//   }
+// }
